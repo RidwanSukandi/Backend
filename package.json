@@ -3,8 +3,11 @@
   "version": "0.0.0",
   "private": true,
   "type": "module",
+  "engines": {
+    "node": "18.x"
+  },
   "scripts": {
-    "start": "nodemon ./src/server.js"
+    "start": "node ./src/server.js"
   },
   "dependencies": {
     "@prisma/client": "^4.15.0",
